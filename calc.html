@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    <h1>Calculator by K.Pavani</h1>
+    <div class="calculator">
+        <p style="text-align: center;font-weight: 150px;color: aquamarine;">CASIO</p>
+        <input style="height: 40px;border-radius: 10px;width:200px;" type="text" id="res" >
+        <div class="buttons">
+            <br>
+    <button id="calc" onclick="clearResult()">DEL</button>
+    <button id="calc" onclick="clearResult()">AC</button>
+    <button id="calc" onclick="result('%')">%</button>
+    <button id="calc" onclick="result('/')">/</button>
+
+    <br>
+    <button  onclick="result('7')">7</button>
+    <button  onclick="result('8')">8</button>
+    <button onclick="result('9')">9</button>
+    <button id="calc" onclick="result('*')">*</button>              
+    <br>
+    <button  onclick="result('4')">4</button>
+    <button  onclick="result('5')">5</button>
+    <button  onclick="result('6')">6</button>
+    <button id="calc" onclick="result('-')">-</button>
+    <br>
+    <button onclick="result('1')">1</button>
+    <button onclick="result('2')">2</button>
+    <button onclick="result('3')">3</button>
+    <button id="calc" onclick="result('+')">+</button>
+    <br>
+    <button onclick="result('0')">0</button>
+    <button onclick="result('00')">00</button>
+    <button onclick="result('.')">.</button>
+    <button id="calc" onclick="calculate()">=</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+      
+</body>
+</html>
